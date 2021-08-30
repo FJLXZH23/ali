@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+header{
+    background-color: #FDF8F5;
+    width: 100%;
+    padding: 15px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    
+    
+}
+header h1{
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-decoration: underline #DDAF94;
+    
+
+}
+body{
+    background-color: #e8cebf;
+}
+
+nav ul{
+    text-align:  right;
+    white-space: nowrap;
+    background-color: #FDF8F5;
+    list-style: none;
+    margin-right: 0;
+    padding-left: 0;
+
+    
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+    font-family: sofia-pro;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+
+}
+body article h1{
+    margin-top: 60px;
+    color: white;
+    margin-right: 87%;
+    padding: 25px;
+    padding-bottom: 25px;
+    background-color: #266150;
+    font-size: 30px;
+    font-family:Vollkorn;
+    font-style:italic;
+}
+ article p{
+    text-align: left;
+    color: white;
+    margin-right: 40%;
+    padding: 2px;
+    font-family:Vollkorn;
+    font-size: 20px;
+    
+    
+    
+}
+
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    
+  }
+  footer ul li{
+      list-style: none;
+      padding: 10px;
+  }
+  footer ul li a{
+      text-decoration: none;
+      color: black;
+      font-family:'Courier New', Courier, monospace;
+      text-transform: uppercase;
+
+  }
+
+.ali{
+    text-align: right;
+    float: right;
+    vertical-align:right;
+    background-color:white;
+    
+}
+article {
+    margin-right: 50px;
+}
+
+li:hover{
+    color: #266150;
+    background-color: #266150;
+}
+
+.ali:hover{
+    position: relative;
+    top: -4px;
+}
